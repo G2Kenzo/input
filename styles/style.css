@@ -1,0 +1,157 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+} li {
+  list-style: none;
+}
+
+.background-image { 
+  background-image: url(/img/photo-1496568816309-51d7c20e3b21.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 975px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding: 50px;
+  
+  
+  gap: 15px;
+  box-shadow: 0px 15px 50px rgb(27, 32, 37);
+  border-radius: 5px;
+  color: rgba(251, 253, 253, 0.59);
+
+}
+
+
+.input-email , 
+.input-password ,
+.input-sub {
+  height: 30px;
+  width: 230px;
+  padding: 1px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 2px 2px 5px rgba(224, 215, 185, 0.5);
+  color: gray;
+}
+
+.input-email:hover , 
+.input-password:hover ,
+.input-sub:hover {
+  box-shadow: 3px 3px 10px white;
+}
+
+.checkbox-container {
+  padding: 10px 0px;
+  display: flex;
+  font-size: 15px;
+  align-items: center;
+  gap: 10px;
+}
+
+.span-text {
+  color: rgb(86, 110, 174);
+}
+
+.span-text:hover {
+  text-shadow: 1px 1px 10px rgb(228, 194, 194);
+  color: rgb(1, 14, 46)
+}
+
+.span-text:active {
+  text-shadow: 0px 1px 5px rgb(228, 194, 194);
+  transition: 0.3s;
+}
+
+.input__sub {
+  background-color: rgb(106, 156, 120);
+  color: white;
+  box-shadow: 2px 2px 5px rgb(72, 97, 57);
+}
+
+.input__sub:hover {
+  box-shadow: 3px 3px 10px rgb(69, 95, 69);
+
+}
+
+.input__sub:active {
+  opacity: 0.7;
+}
+
+.social-cont {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 10px 0px;
+}
+
+hr {
+  width: 90px;
+}
+
+.button-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.button {
+  display: flex;
+  padding: 7px 4px;
+  align-items: center;
+  gap: 5px;
+  border: none;
+  border-radius: 5px;
+  color: white
+}
+
+.button:active {
+  opacity: 0.7;
+}
+
+.facebook {
+  background-color: rgb(71, 106, 172);
+
+}
+
+.facebook:hover {
+  box-shadow: 3px 3px 10px rgb(71, 106, 172);
+
+}
+
+.twitter {
+  background-color: rgb(71, 172, 172);
+}
+
+.twitter:hover {
+  box-shadow: 3px 3px 10px rgb(71, 172, 172);
+
+}
+
+.google {
+  background-color: rgb(203, 64, 64);
+}
+
+.google:hover {
+  box-shadow: 3px 3px 10px rgb(203, 64, 64);
+
+}
+
+
+
+
+
+
+
+
+
